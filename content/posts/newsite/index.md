@@ -1,9 +1,9 @@
 +++
-title = "Setting up this site (nmcapule.dev)"
+title = "Setting up a website (Part 1)"
 date = "2020-05-17"
-tags = ["domain", "linux", "namecheap"]
+tags = ["domain", "linux", "namecheap", "linode"]
 author = "Nathaniel M. Capule"
-description = "You'll need three things: a server, domain registrar and some $15 on your card."
+description = "A tutorial on how to acquire a domain name and connect it to your server. You'll need three things: a server, domain registrar and some $15 on your card."
 +++
 
 {{< toc >}}
@@ -12,7 +12,7 @@ You'll need three things: a server, domain registrar and some \$15 on your card.
 
 # Server
 
-We have a lot of choice here. Here are some top ones:
+We have a lot of choices here. Here are some top ones:
 
 - [**Google Cloud Platform**](https://console.cloud.google.com) - Free \$300
   credits!
@@ -23,7 +23,10 @@ We have a lot of choice here. Here are some top ones:
 - [**Linode**](https://www.linode.com/?r=69a3930f8182950d986ff87b1c8cb59c7b785f88)
 - [**Vultr**](https://www.vultr.com) - Free \$50 credits!
 
-## What do I choose?
+> Actually, you also have an option to use your local hardware too. As long as
+> you have a static IP, which usually needs to be requested to your ISP.
+
+## Which VPS should I choose?
 
 Personally, I'd recommend GCP, AWS or MS since they have a lot of free credits
 and you might want to get practice. But if you are a developer and you want a
@@ -192,7 +195,7 @@ PING nmcapule.dev(2400:8902::f03c:92ff:snip:snip (2400:8902::f03c:92ff:snip:snip
 rtt min/avg/max/mdev = 0.021/0.021/0.021/0.000 m
 ```
 
-# Voila
+# Results
 
 If setup correctly, you should now be able to:
 
@@ -205,9 +208,37 @@ If setup correctly, you should now be able to:
 - Access your website's HTTP server (e.g. http://nmcapule.dev) if there's an
   nginx daemon automatically running in your instance.
 
-# Other things to try
+  If that is not installed, install it via:
 
-- Setup HTTPS for your website
+  ```shell
+  $ sudo apt install nginx
+  $ sudo service nginx start
+  ```
+
+## Wait, I'm still encountering an SSL error when I access my website.
+
+Do you mean this "Your connection is not private" error?
+
+{{< figure src="not_private.png" position="center" style="height: 240px"
+    caption="Yeah I got this error on my first try too" >}}
+
+Well, it turns out that most modern browsers will refuse to render non-https
+websites nowadays.
+
+You have two options:
+
+1. **The short-term solution**: If you are using _Google Chrome_, type this
+   while the focus is on the browser: `thisisunsafe`. It'll let you bypass the
+   error.
+
+2. **The long-term solution**: Do it the proper way by setting up SSL certs for
+   your website. [Let's Encrypt](https://letsencrypt.org/getting-started/) is
+   the easiest way to do that. I'm going to detail how to setup a blog in my
+   next posting and that includes setting up SSL certs.
+
+# Appendix of other things to try
+
+- Setup HTTPS for your website via Let's Encrypt.
 - Setup terminal tools for your instance. If you're curious, here's my first few
   command lines when I ssh'd to my server instance.
 
