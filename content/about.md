@@ -50,7 +50,7 @@ This isn't exhaustive. Just trying out tables in markdown.
 # TODO
 
 - [x] Actually start a blog on my site!
-- [ ] Create post on how I created https://nmcapule.dev
+- [x] Create post on how I created https://nmcapule.dev
 - [ ] Create post on my sepanx alternative tools against Google dev tools
 - [ ] Create post on setting up VSCode remote!
 - [ ] Create post on setting up a Docker swarm

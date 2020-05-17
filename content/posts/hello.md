@@ -3,6 +3,7 @@ title = "First Post!"
 date = "2020-05-16"
 tags = ["hello", "world"]
 author = "Nathaniel M. Capule"
+description = "Hello new website!"
 +++
 
 I'm in the middle of COVID-19 crisis here in the Philippines, with
