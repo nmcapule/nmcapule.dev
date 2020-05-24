@@ -2,6 +2,7 @@ baseURL = "https://nmcapule.dev"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
+googleAnalytics = "UA-166912390-1"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -40,7 +41,7 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "nmcapule.dev"
-    subtitle = "Yet another attempt at technical blogging!"
+    subtitle = "-. .- - .... .- -. .. . .-.."
     owner = "Nathaniel Capule"
     keywords = "programming stuff"
     copyright = ""
@@ -78,7 +79,7 @@ paginate = 5
   [privacy.disqus]
     disable = true
   [privacy.googleAnalytics]
-    disable = true
+    disable = false
   [privacy.instagram]
     disable = false
     simple = false

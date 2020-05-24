@@ -1,6 +1,6 @@
 +++
 title = "Hello world"
-tags = ["enmis", "aeonmyst", "nmcapule", "llss.s.sls.lll", "ncapule", "nathaniel.capule"]
+tags = ["enmis", "aeonmyst", "nats", "nmcapule", "llss.s.sls.lll", "ncapule", "nathaniel.capule"]
 +++
 
 Hi! I'm _Nathaniel M. Capule_, a software developer by trade. I am based in the

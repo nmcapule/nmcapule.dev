@@ -1,7 +1,7 @@
 +++
 title = "Checking out Docker Swarm"
 date = "2020-05-17"
-author = "Nathaniel M. Capule"
+author = "nats"
 tags = ["docker", "linode", "linux"]
 description = "I'm trying to learn how to setup a Docker Swarm since it is super relevant to my work right now so I am now checking out its Getting Started tutorial."
 +++

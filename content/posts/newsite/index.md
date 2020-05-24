@@ -2,7 +2,7 @@
 title = "Setting up a website (Part 1)"
 date = "2020-05-17"
 tags = ["domain", "linux", "namecheap", "linode"]
-author = "Nathaniel M. Capule"
+author = "nats"
 description = "A tutorial on how to acquire a domain name and connect it to your server. You'll need three things: a server, domain registrar and some $15 on your card."
 +++
 
@@ -238,7 +238,8 @@ You have two options:
 
 # Appendix of other things to try
 
-- Setup HTTPS for your website via Let's Encrypt.
+- Setup HTTPS for your website via Let's Encrypt. Checkout my
+  [Part 2](/posts/newsite-2) tutorial on how to set this up.
 - Setup terminal tools for your instance. If you're curious, here's my first few
   command lines when I ssh'd to my server instance.
 

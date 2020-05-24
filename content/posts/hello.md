@@ -2,7 +2,7 @@
 title = "First Post!"
 date = "2020-05-16"
 tags = ["hello", "world"]
-author = "Nathaniel M. Capule"
+author = "nats"
 description = "Hello new website!"
 +++
 
