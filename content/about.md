@@ -27,7 +27,7 @@ on my CV at [bit.ly/nmcapule](http://bit.ly/nmcapule).
 
 # Some skills
 
-This isn't exhaustive. Just trying out tables in markdown.
+Don't take this too seriously. I'm just trying out tables in markdown.
 
 | Skill                                                           |  Rating [^1] |
 | :-------------------------------------------------------------- | -----------: |
@@ -53,7 +53,7 @@ This isn't exhaustive. Just trying out tables in markdown.
 - [x] Create post on how I created https://nmcapule.dev
 - [ ] Create post on my sepanx alternative tools against Google dev tools
 - [ ] Create post on setting up VSCode remote!
-- [ ] Create post on setting up a Docker swarm
+- [x] Create post on setting up a Docker swarm
 - [ ] Create post about my usual day-to-day developer workflow
 
 ---
